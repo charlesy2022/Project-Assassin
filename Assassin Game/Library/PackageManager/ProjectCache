@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637811071007790405
-    m_Hash: 3663258052
+      ticks: 637813570384893613
+    m_Hash: 693260828
   m_LockFileStatus:
     m_FilePath: D:/GitHub/Project-Assassin/Assassin Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637811071008777902
-    m_Hash: 1146081930
+      ticks: 637813570505355783
+    m_Hash: 2439354889
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -124,9 +124,6 @@ m_PackageAssets:
         - 8.0.0-pre.4
         - 8.0.0
         compatible:
-        - 5.0.6
-        - 5.0.7
-        - 5.0.8
         - 5.0.9
         - 5.0.10
         verified: 5.0.10
@@ -334,8 +331,6 @@ m_PackageAssets:
         - 7.0.0-pre.4
         - 7.0.0
         compatible:
-        - 4.1.0
-        - 4.1.1
         - 4.1.2
         - 4.1.3
         verified: 4.1.3
@@ -533,7 +528,6 @@ m_PackageAssets:
         - 8.0.0-pre.5
         - 8.0.0
         compatible:
-        - 5.1.4
         - 5.1.5
         - 5.1.6
         - 5.1.7
@@ -645,12 +639,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.11.2
+    - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
       isDirectDependency: 1
-      version: 1.11.2
+      version: 1.13.5
       source: 1
-      resolvedPath: D:\GitHub\Project-Assassin\Assassin Game\Library\PackageCache\com.unity.collab-proxy@1.11.2
+      resolvedPath: D:\GitHub\Project-Assassin\Assassin Game\Library\PackageCache\com.unity.collab-proxy@1.13.5
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -718,8 +712,6 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.11.2
-        - 1.12.5
         - 1.13.5
         - 1.14.1
         - 1.14.4
@@ -743,9 +735,19 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.11.2
-      dependencies: []
-      resolvedDependencies: []
+        verified: 1.13.5
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
       keywords:
       - backup
       - cloud
@@ -772,13 +774,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637679178630000000
+      datePublishedTicks: 637685076530000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 3bc7fe2ab9acbe4538785fec6100ac17fe9e8da5
+        revision: 4001806dc89b25276d1382d5abffd71731b030e5
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -3349,6 +3351,117 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: D:\GitHub\Project-Assassin\Assassin Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: library
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0
+        compatible:
+        - 2.0.0
+        verified: 2.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: D:\GitHub\Project-Assassin\Assassin Game\Library\PackageCache\com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        path: 
     - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
@@ -3596,4 +3709,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: D:/GitHub/Project-Assassin/Assassin Game/Packages
-m_EditorVersion: 2020.3.20f1 (41c4e627c95f)
+m_EditorVersion: 2020.3.22f1 (e1a7f79fd887)
