@@ -17,4 +17,7 @@ public class PlayerSwordAttack : MonoBehaviour
     }
 
     void FixedUpdate()
+    {
+
+    }
 }
